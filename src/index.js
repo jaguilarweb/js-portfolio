@@ -7,3 +7,5 @@ import '@styles/vars.styl';
   const main = null || document.getElementById('main');
   main.innerHTML = await Template();
 })();
+
+console.log('one change detected');
