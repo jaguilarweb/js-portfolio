@@ -31,9 +31,11 @@ Instalación de webpack en la carpeta raíz del proyecto.
 $ npm install webpack webpack-cli -D
 `
 
+## Dependencias
+
 Los principales loaders y plugins que se instalan en este proyecto son los siguientes:
 
-`
+```
 npm install -D babel-loader @babel/core @babel/preset-env @babel/plugin-transform-runtime -D
 
 npm i html-webpack-plugin -D
@@ -56,7 +58,7 @@ npm install webpack-dev-server -D
 
 npm install -D webpack-bundle-analyzer
 
-`
+```
 
 ## Acceso a la aplicación de ejemplo.
 
